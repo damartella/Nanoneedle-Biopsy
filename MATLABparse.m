@@ -1,4 +1,7 @@
 
+%AFTER IMPORTING THE FILES IN MATLAB, CHANGE THE STRING "section" TO YOUR FILENAME, CHECK AND CHANGE NUMBER OF POINTS AND NUMBER OF M/Z POSITIONS
+%CHANGE OUTPUT FILEPATH, THEN RUN
+
 numpoints = 5590;		%CHANGE NUMBER OF POINTS
 nummz = 8279;		%CHANGE NUMBER OF M/Z
 
@@ -26,4 +29,4 @@ temp2=temp2+1;
 end
 msection=m;
 
-dlmwrite('C:\Users\ChiappiniLAB\Documents\Davide\DESI\211102-HumanGliomaAnalysis\splitted\section_prec7.txt', msection, 'delimiter', '\t', 'precision', 7);
+dlmwrite('output_filepath\section_prec7.txt', msection, 'delimiter', '\t', 'precision', 7);
