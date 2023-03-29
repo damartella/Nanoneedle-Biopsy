@@ -3,7 +3,7 @@
 ## Repository contents
 This repository contains a Collection of scripts in R and MATLAB, used to analyse DESI-MS images of glioma tissue sections and nanoneedle biopsies in the paper "Nondestructive Spatial Lipidomics for Glioma Classification".
 
-[HDI files] - Contains the .txt files with (x,y) position and intensity of 1000 most intense DESI-MS peaks. 
+[HDI files](https://www.dropbox.com/s/zz5qt263rimb116/DESI-images.7z?dl=0) - Contains the .txt files with (x,y) position and intensity of 1000 most intense DESI-MS peaks. 
               These files were exported from the raw files by using [High Definition Imaging (HDI) Software](https://www.waters.com/waters/en_US/High-Definition-Imaging-%28HDI%29-Software/nav.htm?cid=134833914&locale=en_US) (Waters Corporation).
 
 [ROIs_definition](.\ROIs_definition.xlsx) - Contains the coordinates of the regions of interest for the single sections and replicas in each image file.
